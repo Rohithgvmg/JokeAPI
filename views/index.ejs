@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>JOKE_API</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="entry">
+    <h1>Joke Center </h1>
+    </div>
+    <div class="category">
+    <form id="cat" method="post" action="/">
+    <p style="font-weight:bold; padding: bottom 0;">Choose Category</p>
+    <input type="radio" name="category"  value="Any">
+    <label>Any</label>
+    <input type="radio" name="category" value="Programming" >
+    <label>Programming</label>
+    <input type="radio" name="category" value="Misc" >
+    <label>Misc</label>
+    <input type="radio" name="category" value="Dark" >
+    <label>Dark</label>
+    <input type="radio" name="category" value="Pun" >
+    <label>Pun</label>
+    <input type="radio" name="category" value="Spooky" >
+    <label>Spooky</label>
+    <input type="radio" name="category" value="Christmas" >
+    <label>Christmas</label>
+    <br>
+    <br>
+    </div>
+    <button type="submit" style="background-color: #3AA6B9;"  >SUBMIT</button>
+    <div id="answer">
+      
+      <% if(locals.content){ %>
+      <%=content%>
+      <br>
+      <% } %>
+    </div>
+    <h3>NOTE: Please try again if find undefined</h3>
+    </form>
+  </body>
+</html>

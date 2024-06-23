@@ -1,0 +1,22 @@
+.entry{
+  background-color: #FFF5E1;
+  height:9vh;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  color:black;
+  gap: 0;
+}
+
+.category{
+  background-color: #98DFD6;
+}
+
+#answer{
+  display: flex;
+  justify-content: flex-start;
+  background-color: #95D2B3;
+  height:9vh;
+  align-items: center;
+}
+
